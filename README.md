@@ -38,13 +38,12 @@ That will output a JSON object that looks like this:
 
     {
         accept_all: false,
-        corrected: false,
         country_code: '',
         country_name: '',
         disposable: false,
         domain: 'example.com',
-        email_request: 'test@example.com',
-        email_result: 'test@example.com',
+        email: 'test@example.com',
+        did_you_mean: '',
         free: false,
         localpart: 'test',
         reason: 'smtp_missing',
@@ -59,7 +58,8 @@ Full API documentation is available from the [CheckMail developer site.][checkma
 
 ## Release History
 
-* 1.0.0 - Initial release
+### v1.0.0
+* Initial release
 
-[checkmail sign up]:   https://checkmail.io/portal/signup/
+[checkmail sign up]:   https://checkmail.io/
 [checkmail dev site]:  https://checkmail.io/docs/api/
